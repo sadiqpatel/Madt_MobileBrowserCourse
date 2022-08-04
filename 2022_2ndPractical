@@ -1,0 +1,20 @@
+<html>
+    
+<head>
+    <h1>Sadiq Patel</h1>
+</head>
+<body>
+       <p id="title">Mohammed is here</p>
+</body>
+<script>
+    document.getElementById("title").textContent = "New"
+    
+    const elem = document.createElement("li");
+    const text = document.createTextNode("Coffee");
+
+
+    elem.appendChild(text);
+
+    document.body.appendChild(elem);
+</script>
+</html>
